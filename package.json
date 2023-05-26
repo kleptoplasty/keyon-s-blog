@@ -1,0 +1,14 @@
+{
+  "name": "keyon-blog",
+  "version": "1.0.0",
+  "description": "keyon的博客",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.8"
+  }
+}

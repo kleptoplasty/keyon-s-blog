@@ -1,0 +1,4 @@
+# 持续集成
+language: node_js
+sudo: required
+node_js: stable
