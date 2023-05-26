@@ -32,8 +32,9 @@ module.exports = {
             items: genNav(deepClone(Websites), 'EN'),
           },
           {
-            text: 'ChineseWebsite(gitee)',
-            link: 'https://gitee.com/ou-jiarong/keyon-s-blog', // 如果link内容是网站地址，导航栏右上角会显示一个小箭头
+            text: 'GitHub',
+            // 如果link内容是网站地址，导航栏右上角会显示一个小箭头
+            link: 'https://github.com/kleptoplasty/keyon-s-blog',
           },
         ],
         sidebar: {
@@ -77,8 +78,8 @@ module.exports = {
             items: genNav(deepClone(Websites), 'ZH'),
           },
           {
-            text: '中文站点(gitee)',
-            link: 'https://gitee.com/ou-jiarong/keyon-s-blog',
+            text: 'GitHub',
+            link: 'https://github.com/kleptoplasty/keyon-s-blog',
           },
         ],
         // 注意加上相应的前缀
